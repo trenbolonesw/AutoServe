@@ -8,6 +8,12 @@ body {
   background-color: black;
 }
 
+@media (max-width:600px) {
+  body{
+    background-color: black;
+  }
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
