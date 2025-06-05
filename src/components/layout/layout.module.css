@@ -1,6 +1,9 @@
 
 
-.layout{
+
+
+@media(max-width:600px){
+ .layout{
   display: flex;
   flex-direction: row;
     height: 20rem;
@@ -8,6 +11,7 @@
     border-style: solid;
     border-width: 1rem;
     border-color: aliceblue;
+}
 }
 
 
