@@ -25,10 +25,10 @@
 }
 
 .header{
-    width: 50%;
+    width: 30%;
  margin: auto;
     background-color: rgb(153, 150, 150);
-    font-size: 4rem;
+    font-size: 300%;
     border-style: groove;
     border-width: 20px;
    border-radius: 3%;
@@ -54,7 +54,7 @@
     background-color: gray;
     border-radius: 5%;
     
-    margin-top: 1rem;
+   
     display: flex;
     flex-direction: column;
     font-size: 1.4rem;
@@ -90,7 +90,7 @@
 .button{
    
        transition: all 0.3s ease-in-out;
-    margin-top: 10%;
+ 
     background-color: black;
     border: none;
     border-radius: 5%;
