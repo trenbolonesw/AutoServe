@@ -18,9 +18,9 @@ export default function Layout(){
               
           
             
-            <header className={styles.header}>
+            <h1 className={styles.header}>
             <Link className={styles.headerLink} to={'/'}> Auto<strong>Serve</strong></Link>
-            </header>
+            </h1>
            <button className={styles.button} onClick={handleDrop}>
             <img src={image2} alt="" height={70} width={70}/>
             </button>
