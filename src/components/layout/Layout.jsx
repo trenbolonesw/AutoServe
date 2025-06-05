@@ -15,9 +15,9 @@ export default function Layout(){
         <>
         <div>
             <div className={styles.layout}>
-                <h2 className={styles.dashboard}>
-            <Link to={'/DashBoard'} className={styles.Link}>Dashboard</Link>
-           </h2>
+              
+          
+            
             <header className={styles.header}>
             <Link className={styles.headerLink} to={'/'}> Auto<strong>Serve</strong></Link>
             </header>
@@ -30,7 +30,7 @@ export default function Layout(){
                 <Link className={styles.Link} to={'/CreateAppointment'}>Book Appointment</Link>
                 <Link className={styles.Link}>Products</Link>
                 <Link className={styles.Link}>About Us</Link>
-                
+                <Link to={'/DashBoard'} className={styles.Link}>Dashboard</Link>
             </div>
          
             </div>

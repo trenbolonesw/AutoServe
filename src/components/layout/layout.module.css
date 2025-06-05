@@ -1,12 +1,10 @@
 
-  .layout{
-    background-color: gray;
-  }
+  
 
 .layout{
     display: flex;
     flex-direction: row;
-    background-color: gray;
+    background-color: rgb(175, 65, 65);
     border-style: solid;
     border-width: 1rem;
     border-color: aliceblue;
@@ -26,12 +24,21 @@
 
 .header{
     width: 30%;
- margin: auto;
     background-color: rgb(153, 150, 150);
     font-size: 300%;
     border-style: groove;
     border-width: 20px;
    border-radius: 3%;
+}
+
+.button{
+    
+       transition: all 0.3s ease-in-out;
+ 
+    background-color: black;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
 }
 
 .dashboard{
@@ -87,15 +94,7 @@
   transition: opacity 0.3s ease, visibility 0s 0.3s, transform 0.3s ease;
     
 }
-.button{
-   
-       transition: all 0.3s ease-in-out;
- 
-    background-color: black;
-    border: none;
-    border-radius: 5%;
-    cursor: pointer;
-}
+
 
 .button:hover{
   transform: scale(1.1);
