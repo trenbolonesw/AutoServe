@@ -15,19 +15,17 @@ export default function Layout(){
         <>
         <div>
             <div className={styles.layout}>
-                
                 <h2 className={styles.dashboard}>
             <Link to={'/DashBoard'} className={styles.Link}>Dashboard</Link>
            </h2>
-             
             <header className={styles.header}>
             <Link className={styles.headerLink} to={'/'}> Auto<strong>Serve</strong></Link>
             </header>
-          
-            <div className={styles.menu}>
-             <button className={styles.button} onClick={handleDrop}>
+           <button className={styles.button} onClick={handleDrop}>
             <img src={image2} alt="" height={70} width={70}/>
             </button>
+            <div className={styles.menu}>
+             
             <div className={`${styles.dropdown} ${drop ? styles.dropdown: styles.dropdownhidden}`}>
                 <Link className={styles.Link} to={'/CreateAppointment'}>Book Appointment</Link>
                 <Link className={styles.Link}>Products</Link>

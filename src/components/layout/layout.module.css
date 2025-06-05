@@ -1,17 +1,14 @@
-
-
-
-
 @media(max-width:600px){
- .layout{
-  display: flex;
-  flex-direction: row;
-    height: 20rem;
+  .layout{
+    background-color: gray;
+  }
+}
+.layout{
+    
     background-color: gray;
     border-style: solid;
     border-width: 1rem;
     border-color: aliceblue;
-}
 }
 
 
@@ -27,37 +24,36 @@
 }
 
 .header{
-   font-size: 4rem;
-    width: 20rem;
-  
+    width: 50%;
  margin: auto;
     background-color: rgb(153, 150, 150);
-    border-style: groove;
-    border-width: 20px;
-   border-radius: 3%;
+    font-size: 4rem;
 }
 
 .dashboard{
   margin-left: 5%;
   width: 12rem;
-  height: 12%;
   border-style: solid;
-  border-radius: 1rem;
+  border-radius: 5rem;
   background-color: aliceblue;
   
 }
 
 .dropdown{
-  padding: 1%;
    display: flex;
    flex-direction: column;
-    height: 14rem;
+   
+   padding-top: 20%;
+   padding-bottom: 20%;
+   padding-left: 10%;
+   padding-right: 10%;
     background-color: gray;
     border-radius: 5%;
-    border-style: solid;
-     margin-right: 5rem;
+    
     margin-top: 1rem;
-    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
     row-gap: 2.5rem;
 }
 .dropdown{
@@ -91,7 +87,6 @@
    
        transition: all 0.3s ease-in-out;
     margin-top: 10%;
-    margin-right: 5rem;
     background-color: black;
     border: none;
     border-radius: 5%;
@@ -105,4 +100,6 @@
 
 .menu{
     
+    position: absolute;
+    margin-left: 80%;
 }
