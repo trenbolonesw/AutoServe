@@ -21,11 +21,11 @@ export default function Layout(){
             <header className={styles.header}>
             <Link className={styles.headerLink} to={'/'}> Auto<strong>Serve</strong></Link>
             </header>
-           
-            <div className={styles.menu}>
-             <button className={styles.button} onClick={handleDrop}>
+           <button className={styles.button} onClick={handleDrop}>
             <img src={image2} alt="" height={80} width={80}/>
             </button>
+            <div className={styles.menu}>
+             
             <div className={`${styles.dropdown} ${drop ? styles.dropdown: styles.dropdownhidden}`}>
                 <Link className={styles.Link} to={'/CreateAppointment'}>Book Appointment</Link>
                 <Link className={styles.Link}>Products</Link>
