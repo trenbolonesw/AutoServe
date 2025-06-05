@@ -56,15 +56,11 @@
    flex-direction: column;
    
    padding-top: 20%;
-   padding-bottom: 20%;
+  padding-bottom: 20%;
    padding-left: 10%;
    padding-right: 10%;
     background-color: gray;
     border-radius: 5%;
-    
-   
-    display: flex;
-    flex-direction: column;
     font-size: 1.4rem;
     row-gap: 2.5rem;
 }
@@ -102,8 +98,3 @@
   background-color: darkslategray;
 }
 
-.menu{
-    
-    position: absolute;
-    margin-left: 80%;
-}
