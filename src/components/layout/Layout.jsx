@@ -30,6 +30,7 @@ export default function Layout(){
                 <Link className={styles.Link} to={'/CreateAppointment'}>Book Appointment</Link>
                 <Link className={styles.Link}>Products</Link>
                 <Link className={styles.Link}>About Us</Link>
+                
             </div>
          
             </div>
